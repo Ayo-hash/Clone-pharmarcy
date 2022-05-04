@@ -1,0 +1,239 @@
+@media only screen and (max-width:768px) {
+   /* header{
+    display: none;
+   } */
+.logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    width:100%
+   
+}
+.logo img{
+    width:50px
+}
+.logo h2 {
+    color: rgb(61, 77, 171);
+    font-size: 1.3rem;
+    width:100%
+}
+.menu-bar {
+    /* background:red; */
+    display: block;
+    position: absolute; 
+    right:0;
+    top:-10;
+    padding:5px;
+}
+.menu-bar img{
+    width:20%;
+    height:20%;
+    color:rgb(61,77,171);
+}
+main {
+    margin-top: 3rem;
+}
+main .main-section {
+    text-align: center;
+    height: 70vh;
+    background-image: linear-gradient(to right, rgb(82, 158, 253), rgb(61, 77, 171));
+    overflow: hidden;
+    color: white;
+}
+main .main-section img {
+    width: 90%;
+    /* height: 70%; */
+    margin-top: 1.5rem;
+}
+.image-move {
+    position: absolute;
+    top: 11rem;
+    right: 0;
+    left: 0;
+}
+.main-section-1 h1 {
+    font-weight: 400;
+    text-align: center;
+    color: rgb(61, 77, 171);
+    margin-top: 5rem;
+}
+.row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.col-1a {
+    background: white;
+    height: 28vh;
+    width: 30%;
+    text-align: center;
+    color: rgb(61, 77, 171);
+    border-radius: 5px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+}
+.row-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto!important;
+    width: 100%;
+    gap: 3rem;
+    padding: 20px 
+}
+.row-2 .text {
+    width: 100%
+}
+.row-2 .text h1 {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(61, 77, 171);
+}
+.row-2 .text p {
+    line-height: 2;
+}
+.row-2 img {
+    width: 100%;
+}
+.row-button {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem
+}
+.row-3 {
+    display: flex;
+    align-items: center;
+    background: #f8fcff;
+    width: 100%;
+    padding: 3rem 
+   
+}
+.row3 img {
+    width:100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.row3 img:hover {
+    filter: grayscale(0);
+}
+.main-section-2 .row-2 {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    gap: 3rem;
+    padding: 20px
+}
+
+.main-section-2 .row-2 .text {
+    width: 100%
+}
+
+.main-section-2 .row-2 .text h1 {
+    width:100%;
+    font-weight: 400;
+    line-height: 2;
+    color: rgb(61, 77, 171);
+    font-size:1.5rem 
+} 
+
+.main-section-2 .row-2 .text p {
+    line-height: 2.5;
+}
+
+.main-section-2 .row-2 img {
+    display:block;
+    width: 80%;
+    margin:0 auto
+}
+
+.testimonies-section .testimony{
+    background-color: rgb(226,250,252);
+    margin-top:2rem !important;
+     padding:5px;
+     margin:0 auto;
+     /* margin-top: 1rem; */
+    width:100%;
+    height:50vh;
+}
+.testimonies-section .testimony p {
+    color: #121212;
+    margin-top: 2.5rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.testimonies-section .testimony h3 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.third-section-footer {
+    margin-top: 2rem;
+    background-image: linear-gradient(to right, rgb(82, 158, 253), rgb(61, 77, 171));
+    color: white;
+}
+.third-section-footer h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+.second-section-footer {
+    background-image: linear-gradient(to right, rgb(82, 158, 253), rgb(61, 77, 171));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto !important;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 18rem;
+    left: 0;
+    right: 0
+}
+.second-section-footer h3 {
+    font-weight: 400;
+    padding-left: 30px;
+}
+.second-section-footer .btn {
+    color: rgb(85, 109, 246);
+    background: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-right: 100px;
+}
+footer {
+    background: rgb(34, 34, 34);
+    color: white;
+    height: 40vh;
+    margin-top: 3rem;
+}
+
+footer .row-footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto !important;
+}
+
+footer .col-1-footer {
+    width: 100%;
+    padding: 5px;
+
+}
+
+footer .col-1-footer h4 {
+    margin-top: 6rem;
+    color: rgb(82, 158, 253);
+}
+
+footer .col-1-footer p {
+    margin-top: 1rem;
+    width: 90%;
+}
+}
